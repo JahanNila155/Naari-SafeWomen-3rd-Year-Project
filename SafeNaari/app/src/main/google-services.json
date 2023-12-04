@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395846367622",
+    "firebase_url": "https://naarisafewomen-6d438-default-rtdb.firebaseio.com",
+    "project_id": "naarisafewomen-6d438",
+    "storage_bucket": "naarisafewomen-6d438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395846367622:android:61bde81adbc319fdefd407",
+        "android_client_info": {
+          "package_name": "com.progbees.naari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395846367622-rvsg7hppuvsfu3st86ptbd5hjg02uu7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgLZEn9gJeYAjxcgXaJocI0M5Wg8uhaBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395846367622-04clf01ts34evru0tksveh6pm4d3q5g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

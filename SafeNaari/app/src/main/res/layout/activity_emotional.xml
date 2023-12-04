@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emotional"
+    android:background="#fda4ba"
+    >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/emotional"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Some people need extra emotional care after a miscarriage, while others feel ready to go on with their lives. It’s important to honor your feelings and take care of yourself. Here are some ways to do that:
+
+Take care of your immediate physical needs. While medical attention isn’t always necessary for miscarriages, you may want to consult a clinician to ensure that you don’t need any treatment.
+
+Pay attention to what you’re thinking and feeling. It could be helpful to express yourself by writing poetry, keeping a journal, or talking to friends and loved ones.
+
+Reconnect with your body and nourish it by stretching, swimming, walking, yoga, or dancing. Take a nice, hot shower. Cuddle up in cozy blankets.
+
+Reach out to loved ones. It can be difficult for your loved ones to figure out how to support you after a miscarriage, so be upfront with them about what you need, whether that's some space or a home-cooked meal.
+
+If you need to, allow yourself time and space to mourn. The process of mourning can be different for different people.
+
+Source: Everyday Feminism"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

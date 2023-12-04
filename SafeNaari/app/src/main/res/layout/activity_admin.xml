@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:background="#fda4ba"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/VideoUpload"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Update Video"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/postUpload"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/PostUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Update Post"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/VideoDelete"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:id="@+id/deleteV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Delete Video"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="30dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/postDelete"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Delete Post"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="30dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

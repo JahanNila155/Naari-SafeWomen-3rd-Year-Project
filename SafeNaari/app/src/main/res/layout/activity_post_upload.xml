@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postUpload"
+    android:background="#fda4ba"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imguploadT"
+            android:layout_width="130dp"
+            app:civ_border_width="1dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/background"
+            />
+    </LinearLayout>
+
+    <EditText
+
+        android:id="@+id/POSTTITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_style"
+        android:padding="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Post Title"
+        android:textAlignment="center"
+        android:textColorHint="#5f6059"
+        android:textColor="@color/black"
+        android:inputType="text"
+        />
+
+    <EditText
+
+        android:id="@+id/POSTDETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_style"
+        android:padding="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+
+        android:layout_marginBottom="20dp"
+        android:hint="Post Details"
+        android:textAlignment="center"
+        android:textColorHint="#5f6059"
+        android:textColor="@color/black"
+        android:inputType="text"
+        />
+    <android.widget.Button
+        android:id="@+id/submitBTN"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/button_style"
+
+        />
+
+
+
+</LinearLayout>

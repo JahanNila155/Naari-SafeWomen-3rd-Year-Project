@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sga"
+    android:background="#fda4ba"
+    >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mdk"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Surgical abortion, sometimes called suction or aspiration abortion, is often done in a medical office or clinic by a medical provider who uses instruments to remove the pregnancy from the uterus. It is a generally safe procedure, has a high success rate (about 99%), and takes about 5-15 minutes to complete. In a clinic, anesthesia or sedation can be used for pain management.  Clinics typically provide surgical abortions between 5 weeks to 24 weeks of pregnancy. Some clinics may not be able to provide suction abortions past a certain number of weeks based on laws in their state.  There are always risks with any medical procedure. Consult a medical provider with any concerns or questions.  Source: National Abortion Federation"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

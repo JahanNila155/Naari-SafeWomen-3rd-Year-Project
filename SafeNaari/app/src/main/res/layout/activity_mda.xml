@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mda"
+    android:background="#fda4ba"
+    >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/md"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="There are different ways to take the pills for medication abortion, depending on the medications available, and how far along the pregnancy is.  The World Health Organization  (WHO) recommends a pill called mifepristone followed by a pill called misoprostol. Misoprostol alone can be used safely if mifepristone is not available. The WHO recommends three different ways of taking misoprostol: under the tongue, between the cheek and gums, or vaginally.  For people who receive medications from a clinic, it is important to know that the clinic's instructions about how or when to take the medications may be slightly different from the instructions here, and that’s okay. It's important to follow the instructions that the clinic provided.  There are always risks with any medical procedure. Consult a qualified medical provider with any concerns or questions."
+               android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

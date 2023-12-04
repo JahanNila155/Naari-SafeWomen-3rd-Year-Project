@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".treatment"
+    android:background="#fda4ba"
+    >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/treatment"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="You have different options for how to manage a miscarriage. Some people prefer to manage their own miscarriages at home, while others prefer to work with a health care provider.  Here are some options for treating your miscarriage:  Watch and wait: You can wait for a miscarriage to happen on it’s own. Many people choose this as their first option. If you feel like this is taking too long, you can discuss one of the other options below with a health care provider.  Surgical treatment/suction procedure: You can ask a health care provider to remove the pregnancy using an in-office procedure.  Medication: You can ask a healthcare provider if you can use pills to make the miscarriage happen sooner.  Source: American Family Physician"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#fda4ba"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="User Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/LogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:text="Log Out"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/btn1"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pregnancy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Period and Pregnancy Videos"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn2"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/calendar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Period and Pregnancy Articles"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btn3"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ambulance"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Emergency"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn4"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pregnant"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miscarriage"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <LinearLayout
+            android:id="@+id/btn5"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/heart"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Abortion"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn6"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home_button"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pharmacy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shop"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
